@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         webView1=(WebView)findViewById(R.id.idmywebview);
         webView2=(WebView)findViewById(R.id.idmywebview2);
         searchView=(SearchView)findViewById(R.id.idSearchView);
+        ProgressDialog progressDialog=new ProgressDialog(MainActivity.this);
 
         toolbar=(Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
